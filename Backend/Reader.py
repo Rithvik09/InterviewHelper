@@ -8,7 +8,7 @@ from collections import Counter
 import re
 
 nlp = spacy.load('en_core_web_sm')
-openai.api_key = "YOUR_OPENAI_API_KEY"
+openai.api_key = ""
 
 app = Flask(__name__)
 CORS(app)
